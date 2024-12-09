@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+	    <title>Contacto</title>
+        <link rel="stylesheet" href="estilos.css" type="text/css"/>
+        <link rel="shotcut icon" href="img/Malaga CF.png" type="image/x-icon" />
+        <style type="text/css"> 
+        </style>
+    </head>
+
+    <body>
+        <div id="franja"></div>
+        <header>
+            <img src="img/Malaga CF.png" width="49" height="49" align="center">
+            MÁLAGA CF S.A.D
+        </header>
+
+        <nav>
+            <ul>
+                <li><img src="img/iconol1.png" align="top"><p><a href="index.html">Quienes somos</a></p></li>
+                <li><img src="img/iconol3.png" align="top"><p><a href="Servicios.html">Resultados</a></p></li>
+                <li><img src="img/iconol4.png" align="top"><p>Contacto</p></li>
+            </ul>
+        </nav>
+        <section id="Aficionado2">
+            <div id="Hola">
+                <h2>Contacto</h2>
+            </div>
+            <div id="formulario">
+            <form action="Malagacf.php">
+                <fieldset>
+                    <legend>Datos de la persona</legend>
+                    Nombre:
+                    <input type="text" name="Nombre" span class="rojo" size="20" autofocus autocomplete="additional-name" placeholder="Su nombre" title="Escriba bien su nombre"><br>
+                    Correo Electronico (Gmail):
+                    <input type="email" name="Correo Electronico" size="20" required autocomplete="email" placeholder="nombre@gmail.com" title="Escriba bien su correo"><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Opiniones, puntuacion al atención al cliente y donaciones en €</legend>
+                        Comentarios:<br>
+                        <textarea name="Comentarios"></textarea><p>
+                        Puntuacion al atención al cliente:<br>
+                        <input type="radio" name="Atención al cliente" value="10">
+                        Muy mal
+                        <input type="radio" name="Atención al cliente" value="10">
+                        Mal
+                        <input type="radio" name="Atención al cliente" value="10">
+                        Bien
+                        <input type="radio" name="Atención al cliente" value="10">
+                        Que buena atencion al cliente 
+                        <input type="radio" name="Atención al cliente" value="10">
+                        Me siento un malagueño más<p>
+
+                        Donaciones por los afectados de la DANA €:<br>
+                        <input type="number" name="Dinero" value="3000€" min="10€" max="3000€" step="10">
+                    </fieldset>
+                    <input id="boton" type="submit" value="Enviar">
+            </form>
+            </div>
+            <div id="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.5409565394557!2d-4.429226923597571!3d36.73358447145086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7b04fcb2363%3A0x69f9e825cde5bd60!2sEstadio%20La%20Rosaleda!5e0!3m2!1ses!2ses!4v1732699390593!5m2!1ses!2ses" width="510" height="425" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+        <div id="franja_final"></div>
+        <footer>
+            Oficinas: Paseo de Martiricos s/n, Estadio La Rosaleda (29011), Málaga<br>
+            Horario Oficinas: Lunes a Viernes: 9:30 a 14:00 horas<br> 
+            Teléfono: +34 952 10 44 88<br>
+            Fax: +34 952 61 37 37<br>
+            Email: administracion@malagacf.es
+        </footer>
+    </body>
+    </html>

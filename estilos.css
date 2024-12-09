@@ -1,0 +1,237 @@
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding:4px 70px;
+    text-align: center;
+    background-color: blue;
+}
+
+header{
+    width: 1000px;
+    margin: 0 auto;    
+    position: relative;
+    font-family: "A toda mecha";
+    font-size: 24px;
+    color: white;
+}
+
+ul{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
+}
+nav{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    font-family: "SourGummy";
+    color: silver;
+    font-size: 20px;
+}
+
+#historia-malagueña{
+    position: relative;
+    display:inline-block;
+    margin-bottom:45px;
+    font-family: "A todo gas";
+    font-size: 12px;
+    width: 1000px;
+    margin:0 auto;
+}
+
+.Malaga{
+    width: 980px;
+    margin: 0 auto;
+    float: left;
+    width: 250px;
+    border: 1px blue solid;
+    border-radius: 3px;
+    background-color: white;
+    text-align: center;
+    padding: 5px 5px 22px 5px;
+    box-shadow: 0px 0px 4px blue;
+}
+
+body{
+    background: url('img/Azul2.jpg');
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+}
+
+footer {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 12px;    
+    font-family: "SourGummy";
+    font-size: 13px;
+    color: white;
+}
+
+#titulaso {
+    font-family: "SourGummy";
+    font-size: 18px;
+    margin-top: 47px;
+}
+
+#Malaga2{
+    margin: 0 75px 0 75px;
+}
+
+#franja_final {
+    width:  100%;
+    position: absolute;
+    left: 0;
+    background-color: blue;
+    height: 100px;
+    border-top: 6px blue solid;
+}
+#franja {
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    height:60px;
+    background-color:blue;
+    border-bottom:6px blue solid;
+}
+
+@font-face {
+    font-family: "A todo gas";
+    src: url(enlaces.css/mytype.ttf);
+}
+
+@font-face {
+    font-family: "A toda mecha";
+    src: url(enlaces.css/apologize.ttf); 
+}
+
+@font-face {
+    font-family: "SourGummy";
+    src: url(enlaces.css/SourGummy-VariableFont_wdth\,wght.ttf);
+}
+
+#chincheta{
+    position: absolute;
+    left: 220px;
+    top: 75px;
+}
+
+#historia {
+    transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}
+
+#champions{
+    transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+}
+
+#actual{
+    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+}
+
+#Aficionado2{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+form{
+    font-size: 17px;
+    color: blue;
+    border-radius: 7px;
+    background-color: #d4dae4;
+    border: 2px dotted black;
+    padding: 20px;
+}
+
+fieldset{
+    border-radius: 6px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+legend{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    background-color: white;
+    border-radius: 5px;
+    color: #264F96;
+    font-size: 15px;
+    padding:3px 5px 6px 10px;
+    outline: none;
+}
+
+#boton{
+    padding: 6px 40px;
+    background-color:white;
+    color: blue;
+    font-size: 16px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: #264F96;
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 250px;
+    margin-top: 5px;
+    border-radius: 7px;
+    color: black;
+    font-size: 17px;
+    padding: 6px 6px 6px 20px;
+}
+
+[required]{
+    border-color:blue;
+}
+
+:invalid{
+    border-color: black;
+}
+
+#formulario{
+    width:590px;
+   margin-top:15px;
+}
+
+#maps{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    width: 520px;
+    height: 450px;
+    border-radius: 0 14px 14px 0;
+    margin-top: 20px;
+}
+#resultados{
+    margin: 25px 0;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule: 2px dotted silver;
+}
